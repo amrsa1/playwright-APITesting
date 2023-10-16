@@ -1,7 +1,6 @@
-import { PlaywrightTestConfig } from "@playwright/test";
+import { defineConfig } from "@playwright/test";
 
-
-const sharedConfig: PlaywrightTestConfig = {
+export default defineConfig ({
   use: {
     baseURL: 'https://restful-booker.herokuapp.com',
     trace: "retain-on-failure",
@@ -14,6 +13,4 @@ const sharedConfig: PlaywrightTestConfig = {
   projects: [{ name: 'API test' }],
   testDir: 'src/tests',
   testMatch: ['APITestSuite.ts'],
-};
-
-export default sharedConfig;
+});
