@@ -1,0 +1,20 @@
+{
+  "name": "playwright-api",
+  "version": "1.0.0",
+  "description": "Playwright Demo - API framework structure",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "API",
+    "test"
+  ],
+  "author": "Amrsa",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0"
+  }
+}
