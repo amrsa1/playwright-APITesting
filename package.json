@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Playwright Demo - API framework structure",
   "scripts": {
-    "test": "npx playwright test --config=playwright.config.ts",
+    "test": "npx playwright test",
     "report": "npx playwright show-report"
   },
   "keywords": [
