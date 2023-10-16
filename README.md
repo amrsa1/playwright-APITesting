@@ -6,7 +6,7 @@ This API testing framework serves as a well-structured and intuitive boilerplate
 To set up this framework, you can use the following commands:
 
 ```markdown
-npm install
+npm ci
 ```
 
 **Execution:**
@@ -14,5 +14,5 @@ npm install
 To run your automated tests, use the following command:
 
 ```markdown
-npm test
+npm run test
 ```
